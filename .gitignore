@@ -1,0 +1,29 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+.vscode/
+
+# LaTeX build products (the final report PDF is intentionally tracked)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.xdv
+
+# Downloaded source assets and reproducible/generated simulation data
+data/source/
+results/**
+!results/dragon-benchmark/
+!results/dragon-benchmark/metrics/
+!results/dragon-benchmark/metrics/aggregate.csv
+!results/dragon-benchmark/figures/
+!results/dragon-benchmark/figures/*.png
+
+# Cluster archives and heavy ParaView frame sequences are regenerated locally
+*.tar.gz
+*.pvd
+*.vtp
+*.vtk

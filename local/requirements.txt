@@ -1,0 +1,4 @@
+-r ../requirements.txt
+matplotlib>=3.8
+trimesh>=5.2
+fast-simplification>=0.2
